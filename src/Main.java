@@ -68,15 +68,12 @@ public class Main {
         if (clientOS == android) {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
-        if (clientOS == iOS){
-                System.out.println("Установите версию приложения для iOS по ссылке");
-        }
-
-        else if (clientDeviceYear <= 2015 && clientOS == 0){
-                System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-        }
-        else if (clientDeviceYear <= 2015 && clientOS == 1){
-                System.out.println("Установите облегченную версию приложения для Android по ссылке");
+        if (clientOS == iOS) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        } else if (clientDeviceYear <= 2015 && clientOS == 0) {
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+        } else if (clientDeviceYear <= 2015 && clientOS == 1) {
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");
 
         }
         int ears = 2024;
